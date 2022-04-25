@@ -18,7 +18,7 @@ from utils import *
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-parser = argparse.ArgumentParser(description="DnCNN_Test")
+parser = argparse.ArgumentParser(description="SynVD-DnCNN_Test")
 parser.add_argument("--num_of_layers", type=int, default=17, help="Number of total layers")
 parser.add_argument("--logdir", type=str, default="logs", help='path of log files')
 # parser.add_argument("--prepare_testdata", type=bool, default=False, help='run prepare_data or not')
