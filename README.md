@@ -68,8 +68,10 @@ Python train -preprocess [True or False] -outf [model save path]
 * [5] VBM4D: M. Maggioni, G. Boracchi, A. Foi, and K. Egiazarian, “Video denoising, deblocking, and enhancement through separable 4-D nonlocal spatiotemporal transforms,” IEEE Trans. Image Process., vol. 21, no. 9, pp. 3952–3966, Sept. 2012.
 * [6] SynIQE: L. Zhu, Y. Zhang, S. Wang, H. Yuan, S. Kwong, and H. H. -S. Ip, “Convolutional neural network-based synthesized view quality enhancement for 3D video coding,” IEEE Trans. Image Process., vol. 27, no. 11, pp. 5365–5377, Nov. 2018.
 * [7] TSAN: Z. Pan, W. Yu, J. Lei, N. Ling, and S. Kwong, "TSAN: synthesized view quality enhancement via two-stream attention network for 3D-HEVC," IEEE Trans. Circuits Syst. Video Technol., vol. 32, no. 1, pp. 345-358, Jan. 2022.
-* 
+
 ## Citation
 If you find this work is useful, you can cite 
- 'H. Zhang, Y. Zhang, L. Zhu and W. Lin, "Deep Learning-based Perceptual Video Quality Enhancement for 3D Synthesized View," in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2022.3147788.' in your work.
+
+    H. Zhang, Y. Zhang, L. Zhu and W. Lin, "Deep Learning-based Perceptual Video Quality Enhancement for 3D Synthesized View," 
+    in IEEE Transactions on Circuits and Systems for Video Technology, doi: 10.1109/TCSVT.2022.3147788.
 
