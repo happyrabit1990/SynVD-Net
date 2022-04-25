@@ -43,7 +43,7 @@ More results can be watched on website .
         /training-inputR  
        
 #Prepare training dataset and model training
-Python train -preprocess [True or False] -outf [model save path]
+Python train --preprocess [True or False] --outf [model save path]
 
 ### Test
       #filepath of test images [ground truth, distorted images, and denoised images] 
@@ -54,7 +54,7 @@ Python train -preprocess [True or False] -outf [model save path]
       save_file = 'test/3/lovebird1'
       
       #testing
-      Python test-3level -logdir [pretained model path] 
+      Python test-3level --logdir [pretained model path] 
 
 ### Other issues
   For SynIQE method, neighboring view images are taken as input.
