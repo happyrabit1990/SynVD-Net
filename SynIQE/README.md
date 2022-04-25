@@ -24,8 +24,8 @@ python train.py \
 
 ### 3. Test
 ```
-python test.py \
+python test-3level.py \
   --num_of_layers 4 \
-
+  --log_of_dir /logs \
 ```
 
