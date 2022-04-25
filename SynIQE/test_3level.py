@@ -22,13 +22,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 parser = argparse.ArgumentParser(description="SynIQE_Test")
 parser.add_argument("--num_of_layers", type=int, default=4, help="Number of total layers")
 parser.add_argument("--logdir", type=str, default="logs", help='path of log files')
-parser.add_argument("--prepare_testdata", type=bool, default=False, help='run prepare_data or not')
 # parser.add_argument("--test_data", type=str, default='newspaper', help='test on Set12 or Set68')
-# parser.add_argument("--test_gtdata", type=str, default='test', help='test on Set12 or Set68')
-# parser.add_argument("--test_noisedataL", type=str, default='test_flickerL', help='test on Set12 or Set68')
-# parser.add_argument("--test_noisedata", type=str, default='test_flicker', help='test on Set12 or Set68')
-# parser.add_argument("--test_noisedataR", type=str, default='test_flickerR', help='test on Set12 or Set68')
-parser.add_argument("--save_img", type=int, default=1, help="save image or not")
+# parser.add_argument("--save_img", type=int, default=1, help="save image or not")
 opt = parser.parse_args()
 
 
