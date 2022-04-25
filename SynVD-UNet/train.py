@@ -56,7 +56,7 @@ def main():
     loader_train = DataLoader(dataset=dataset_train, num_workers=4, batch_size=opt.batchSize, shuffle=True)
     print("# of training samples: %d\n" % int(len(dataset_train)))
     # Build model
-    # net = UNet(inchannels=1, outchannels=1)
+    # net = UNet(in_ch=1,out_ch=1)
     net = UNet(in_ch=1, out_ch=1)
     if opt.pretrain != '':
         load_model(net, opt.pretrain)
