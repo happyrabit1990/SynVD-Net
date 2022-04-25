@@ -10,17 +10,31 @@ Subjective comparison:
 More results can be watched on website .
 
 ## Code usage:
-
+ 
 ### Requirements:
-Pytorch 
-
+      numpy
+      torch
+      torchvision
+  
 ### Train:
-     #For training, the ground truth and distorted images training dataset should be arranged as
-     /training-gt
-     /training-input
-     
-     #Prepare training dataset and model training
-     Python train -preprocess [True or False] -outf [model save path]
+#For baseline methods training, the ground truth and distorted images training dataset should be arranged as 
+
+          Data
+          /training-gt
+          /training-input
+       
+#For the proposed SynVD-Net methods training, the ground truth and distorted images training dataset should be arranged as 
+
+     Data
+        /training-gtL
+        /training-gt
+        /training-gtR  
+        /training-inputL
+        /training-input
+        /training-inputR  
+       
+#Prepare training dataset and model training
+Python train -preprocess [True or False] -outf [model save path]
 
 ### Test
       #filepath of test images [ground truth, distorted images, and denoised images] 
@@ -34,7 +48,15 @@ Pytorch
       Python test -logdir [pretained model path] 
 
 ### Other issues:
-  For SynIQE method, neighboring view images are taken as input. For more details, please refer to the paper [6].
+  For SynIQE method, neighboring view images are taken as input.
+          
+          Data
+          /training-inputL
+          /training-input
+          /training-inputR
+          /training-gt
+          
+  For more details, please refer to the paper [6].
 
 
 ## References:
