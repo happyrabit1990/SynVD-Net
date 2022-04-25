@@ -10,11 +10,11 @@ The contribution of the proposed SynVD-Net is the proposed loss function deliber
 ![subjective](./results/visualcomparison.png)
 * Denoising performance on the third distortion level of Lovebird1 with DnCNN 
 ![DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_DnCNN.gif)
-* Denoising performance on the third distortion level of Lovebird1 with GSynVDDnCNN
+* Denoising performance on the third distortion level of Lovebird1 with GSynVD-DnCNN
 ![SynVD-DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_GSynVDDnCNN.gif)
 * Denoising performance on the third distortion level of Lovebird1 with RDN
 ![RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_RDN.gif)
-* Denoising performance on the third distortion level of Lovebird1 with SynVDRDN
+* Denoising performance on the third distortion level of Lovebird1 with SynVD-RDN
 ![SynVD-RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_SynVDRDN.gif)
 More results can be watched on website .
 
