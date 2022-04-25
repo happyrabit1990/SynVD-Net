@@ -54,7 +54,7 @@ Python train -preprocess [True or False] -outf [model save path]
       save_file = 'test/3/lovebird1'
       
       #testing
-      Python test -logdir [pretained model path] 
+      Python test-3level -logdir [pretained model path] 
 
 ### Other issues
   For SynIQE method, neighboring view images are taken as input.
