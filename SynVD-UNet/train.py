@@ -18,7 +18,7 @@ from utils import *
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-parser = argparse.ArgumentParser(description="DnCNN")
+parser = argparse.ArgumentParser(description="SynVD-Unet")
 parser.add_argument("--preprocess", type=bool, default=False, help='run prepare_data or not')
 parser.add_argument('--pretrain', type=str, default='', help='load pretrain model')
 parser.add_argument("--batchSize", type=int, default=128, help="Training batch size")
@@ -56,7 +56,7 @@ def main():
     loader_train = DataLoader(dataset=dataset_train, num_workers=4, batch_size=opt.batchSize, shuffle=True)
     print("# of training samples: %d\n" % int(len(dataset_train)))
     # Build model
-    # net = DnCNN(inchannels=1, outchannels=1,num_of_layers=opt.num_of_layers)
+    # net = UNet(inchannels=1, outchannels=1)
     net = UNet(in_ch=1, out_ch=1)
     if opt.pretrain != '':
         load_model(net, opt.pretrain)
