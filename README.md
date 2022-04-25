@@ -2,15 +2,20 @@
 The contribution of the proposed SynVD-Net is the proposed loss function deliberately derived for quality enhancement of synthesized view, especially considering flickering distortion in synthesized video. The baseline could be the existing denoising CNN-based methods. UNet (adapted from CBDNet [1]), DnCNN [2], and RDN [3] are chosen as the baseline methods, and the associated SynVD-Nets are SynVD-UNet, SynVD-DnCNN, and SynVD-RDN, respectively. The objective and subjective results demonstrate that the proposed SynVD-Net is effective in quality enhancement of synthesized view. In addition, other conventional methods, e.g. BM3D [4], and VBM4D [5], and deep learning-based methods, e.g. SynIQE [6], and TSAN [7], are also adopted as comparison. (Experimental results of TSAN are not demonstrated in our paper)
 
 ## Experimental results
-Objective comparison:
+### Objective comparison:
 ![Objective](./results/objectivecomparison.png)
 
-Subjective comparison:
+### Subjective comparison:
+* Denoising performance comparsion on the third distortion level of Lovebird1 and Poznanhall2  
 ![subjective](./results/visualcomparison.png)
-![DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_DnCNN.gif)
-![SynVD-DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_GSynVDDnCNN.gif)
-![RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_RDN.gif)
-![SynVD-RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_SynVDRDN.gif)
+* Denoising performance on the third distortion level of Lovebird1 with DnCNN 
+![DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_DnCNN.gif)
+* Denoising performance on the third distortion level of Lovebird1 with GSynVDDnCNN
+![SynVD-DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_GSynVDDnCNN.gif)
+* Denoising performance on the third distortion level of Lovebird1 with RDN
+![RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_RDN.gif)
+* Denoising performance on the third distortion level of Lovebird1 with SynVDRDN
+![SynVD-RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_SynVDRDN.gif)
 More results can be watched on website .
 
 ## Code usage
