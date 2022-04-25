@@ -1,6 +1,6 @@
 # RDN-PyTorch
 
-This is a PyTorch implementation of the TIP2017 paper [**](http://ieeexplore.ieee.org/document/7839189/). The author's [MATLAB implementation is here]().
+This is a PyTorch implementation of the TPAMI2021 paper [*Residual Dense Network for Image Restoration*](https://ieeexplore.ieee.org/document/8964437). The author's [Lua implementation is here](https://github.com/yulunzhang/RDN).
 
 ****
 This code was written with 
@@ -42,7 +42,7 @@ python test.py \
 
 ## Test Results
 
-### BSD68 Average RSNR
+### BSD68 Average RSNR (to be modified)
 
 | Noise Level | DnCNN-S | DnCNN-B | DnCNN-S-PyTorch | DnCNN-B-PyTorch |
 |:-----------:|:-------:|:-------:|:---------------:|:---------------:|
