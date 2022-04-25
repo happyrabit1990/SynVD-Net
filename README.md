@@ -6,7 +6,7 @@ Objective comparison:
 ![Objective](./results/objectivecomparison.png)
 
 Subjective comparison:
-![subjective](./results/subjectivecomparison.png)
+![subjective](./results/visualcomparison.png)
 
 More results can be watched on website .
 
