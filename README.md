@@ -13,14 +13,14 @@ Code usage:
 Requirements:
 Pytorch 
 
-# Train:
+## Train:
 #For training, the ground truth and distorted images training dataset should be arranged as /training-gt
 /training-input
 
 #Prepare training dataset and model training
 Python train -preprocess [True or False] -outf [model save path]
 
-# Test
+## Test
 #filepath of test images [ground truth, distorted images, and denoised images] 
 Examples:
   test_files_gt = 'lovebird1/gt/*.bmp'
@@ -32,7 +32,7 @@ Other issues:
 For SynIQE method, neighboring view images are taken as input. For more details, please refer to the paper [6].
 
 
-References:
+## References:
 [1] CBDNet: S. Guo, Z. Yan, K. Zhang, W. Zuo, and L. Zhang, “Toward convolutional blind denoising of real photographs,” in IEEE Int. Conf. Comput. Vis. Pattern Recognit. (CVPR), Long Beach, CA, USA, Jun. 2019, pp. 1712–1722.
 [2] DnCNN: K. Zhang, W. Zuo, Y. Chen, D. Meng, and L. Zhang, “Beyond a gaussian denoiser: residual learning of deep CNN for image denoising,” IEEE Trans. Image Process., vol. 26, no. 7, pp. 3142–3155, Jul. 2017. 
 [3] RDN: Y. Zhang, Y. Tian, Y. Kong, B. Zhong, and Y. Fu, “Residual dense network for image restoration,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 43, no. 7, pp. 2480–2495, Jul. 2021.
