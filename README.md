@@ -3,9 +3,10 @@ The contribution of the proposed SynVD-Net is the proposed loss function deliber
 
 ## Experimental results:
 Objective comparison:
-![image](https://user-images.githubusercontent.com/57431959/165043311-887da294-2d21-4b70-b6bd-d52e32877362.png)
+![Objective](./results/objectivecomparison.png)
 
 Subjective comparison:
+![subjective](./results/subjectivecomparison.png)
 
 More results can be watched on website .
 
@@ -51,10 +52,10 @@ Python train -preprocess [True or False] -outf [model save path]
   For SynIQE method, neighboring view images are taken as input.
           
           Data
-          /training-inputL
-          /training-input
-          /training-inputR
-          /training-gt
+           /training-gt
+           /training-inputL
+           /training-input
+           /training-inputR
           
   For more details, please refer to the paper [6].
 
