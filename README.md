@@ -7,7 +7,10 @@ Objective comparison:
 
 Subjective comparison:
 ![subjective](./results/visualcomparison.png)
-
+![DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_DnCNN.gif)
+![SynVD-DnCNN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_GSynVDDnCNN.gif)
+![RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_RDN.gif)
+![SynVD-RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/poznanhall2_RGB_SynVDRDN.gif)
 More results can be watched on website .
 
 ## Code usage
