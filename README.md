@@ -18,6 +18,12 @@ The contribution of the proposed SynVD-Net is the proposed loss function deliber
 ![SynVD-RDN](https://github.com/happyrabit1990/SynVD-Net/blob/main/results/Lovebird1_RGB_SynVDRDN.gif)
 More results can be watched on website .
 
+
+## Dataset download
+
+The h.264-compressed MVD sequences and corresponding synthesized sequences could be downloaded at the website http://codec.siat.ac.cn/video_download_sy.html.  The h.265 sequences would be released as soon as possible.
+
+
 ## Code usage
  
 ### Requirements
